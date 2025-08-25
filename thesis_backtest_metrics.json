@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-08-23 23:06:42.709879",
+  "assets_tested": [
+    "BTC",
+    "ETH"
+  ],
+  "strategies_compared": 5,
+  "samples_per_test": 1000,
+  "results": [
+    {
+      "Asset": "BTC",
+      "Strategy": "Model",
+      "Fill Rate (%)": 72.0,
+      "Avg Slippage (bps)": -0.9860723584621094,
+      "Price Improvement (%)": 83.88888888888889,
+      "Avg Fill Time (s)": 0.9546917743988751,
+      "Num Fills": 720
+    },
+    {
+      "Asset": "BTC",
+      "Strategy": "Aggressive",
+      "Fill Rate (%)": 87.2,
+      "Avg Slippage (bps)": 1.0309056345728116,
+      "Price Improvement (%)": 16.28440366972477,
+      "Avg Fill Time (s)": 0.483942859956606,
+      "Num Fills": 872
+    },
+    {
+      "Asset": "BTC",
+      "Strategy": "Moderate",
+      "Fill Rate (%)": 72.1,
+      "Avg Slippage (bps)": -1.0074086489384189,
+      "Price Improvement (%)": 85.29819694868237,
+      "Avg Fill Time (s)": 1.0369595743555198,
+      "Num Fills": 721
+    },
+    {
+      "Asset": "BTC",
+      "Strategy": "Conservative",
+      "Fill Rate (%)": 50.4,
+      "Avg Slippage (bps)": -1.988484438350755,
+      "Price Improvement (%)": 97.81746031746032,
+      "Avg Fill Time (s)": 2.0396915538294893,
+      "Num Fills": 504
+    },
+    {
+      "Asset": "BTC",
+      "Strategy": "Passive",
+      "Fill Rate (%)": 32.9,
+      "Avg Slippage (bps)": -3.0210146675063543,
+      "Price Improvement (%)": 100.0,
+      "Avg Fill Time (s)": 3.302604185532511,
+      "Num Fills": 329
+    },
+    {
+      "Asset": "ETH",
+      "Strategy": "Model",
+      "Fill Rate (%)": 72.1,
+      "Avg Slippage (bps)": -0.9991229193862949,
+      "Price Improvement (%)": 82.94036061026353,
+      "Avg Fill Time (s)": 1.1839921715538386,
+      "Num Fills": 721
+    },
+    {
+      "Asset": "ETH",
+      "Strategy": "Aggressive",
+      "Fill Rate (%)": 88.9,
+      "Avg Slippage (bps)": 1.037136526735086,
+      "Price Improvement (%)": 14.735658042744657,
+      "Avg Fill Time (s)": 0.5060557044932595,
+      "Num Fills": 889
+    },
+    {
+      "Asset": "ETH",
+      "Strategy": "Moderate",
+      "Fill Rate (%)": 70.6,
+      "Avg Slippage (bps)": -1.0178128627266183,
+      "Price Improvement (%)": 84.70254957507082,
+      "Avg Fill Time (s)": 0.9274286566075373,
+      "Num Fills": 706
+    },
+    {
+      "Asset": "ETH",
+      "Strategy": "Conservative",
+      "Fill Rate (%)": 54.400000000000006,
+      "Avg Slippage (bps)": -2.0540912939629132,
+      "Price Improvement (%)": 98.52941176470588,
+      "Avg Fill Time (s)": 2.089753870656231,
+      "Num Fills": 544
+    },
+    {
+      "Asset": "ETH",
+      "Strategy": "Passive",
+      "Fill Rate (%)": 29.5,
+      "Avg Slippage (bps)": -3.121793827937564,
+      "Price Improvement (%)": 99.66101694915255,
+      "Avg Fill Time (s)": 2.778031960863932,
+      "Num Fills": 295
+    }
+  ],
+  "improvements": {
+    "BTC": {
+      "model_fill_rate": 72.0,
+      "traditional_avg_fill": 60.650000000000006,
+      "fill_improvement": 11.349999999999994,
+      "model_slippage": -0.9860723584621094,
+      "traditional_avg_slippage": -1.246500530055679,
+      "slippage_improvement": -0.2604281715935697,
+      "model_price_improvement": 83.88888888888889,
+      "best_traditional_fill": 87.2,
+      "best_traditional_strategy": "Aggressive"
+    },
+    "ETH": {
+      "model_fill_rate": 72.1,
+      "traditional_avg_fill": 60.85,
+      "fill_improvement": 11.249999999999993,
+      "model_slippage": -0.9991229193862949,
+      "traditional_avg_slippage": -1.2891403644730024,
+      "slippage_improvement": -0.29001744508670746,
+      "model_price_improvement": 82.94036061026353,
+      "best_traditional_fill": 88.9,
+      "best_traditional_strategy": "Aggressive"
+    }
+  },
+  "conclusion": "Model strategies show balanced performance with good fill rates and controlled slippage"
+}

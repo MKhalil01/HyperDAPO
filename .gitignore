@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data
+data/raw/*
+data/processed/*
+data/features/*
+!data/*/.gitkeep
+
+# Models
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+
+# Results
+evaluation/results/*
+evaluation/figures/*
+!evaluation/*/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+ClaudeWorkingScripts/*
+!ClaudeWorkingScripts/.gitkeep
+*.tmp
+*.temp
+
+# API Keys
+config/secrets.json
+config/api_keys.jsondata/training/*.json
+data/training/*.jsonl
+models/

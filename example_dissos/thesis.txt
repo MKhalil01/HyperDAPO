@@ -1,0 +1,21 @@
+Thesis length
+The dissertation text (defined as everything except title page, table of contents, abstract, acknowledgments, references and appendices) should not exceed 50 pages in 12 point type and 1.5 or double spacing. ​
+
+The total dissertation length (main text together with appendices) should under no circumstances exceed 100 pages. ​
+
+All work should be written in LaTeX (unless there is a strong reason for not doing so). ​
+
+A LaTeX template is provided below. UCL also have a license for Overleaf, if this is preferred. ​
+
+A good thesis
+A common format for the thesis is: title page, abstract, list of contents, introduction, background section, sections with your research and results, conclusion, references and appendices. However, as long as you comply with the formal requirements given above you are free to deviate from this structure if your research is better presented in another way. A good thesis displays the following characteristics:
+
+It addresses one or more challenging problems.
+It motivates the topic and gives a balanced view on how important the area is.
+It describes the related work that has already been done in the area and what the state of the art currently is (including in particular all important scientific peer-reviewed literature).
+It proposes solutions (or explains why no solution has been found) for the problems addressed.
+It gives a balanced and critical evaluation of the proposed solutions (In which cases does the solution work well, in which cases do other approaches work better? What speaks for the solution, what speaks against it? In case of software you may include graphs and tables with experiments, check whether the software work as predicted by theory, etc.? In case of a theoretical result you may include a critical analysis of the theory developed, mathematical proofs, etc.)
+It may point to further interesting research questions that have been discovered along the way (but for which there was no time to look for answers).
+It gives an easy to read presentation of the results, uses precise and correct technical terms, appropriately cites related literature, ties the different parts of the thesis together to form a whole coherent argument, appropriately balances the amount of space devoted to each topic, etc.
+It displays creativity, thoroughness, logical and critical reasoning, etc.
+We will be looking for originality, i.e., that there is something new in the thesis. To ensure getting full credit for your contributions display clearly in the thesis when an idea/question/solution/technique is something you came up with yourself. One possibility is to have a subsection called "contributions" in the introduction, where you explain what your contributions are. To ensure the marker notices you may again in the conclusion restate what you have accomplished.
