@@ -8,6 +8,7 @@ Building and training an LLM using DAPO (Decoupled Clip and Dynamic sAmpling Pol
 
 - DO NOT TOUCH readme.md
 - You can read but do not edit my project_report under any circumstance unless I explicitly ask
+- When writing anything related to my dissertation, SPECIFY ANY AND EVERY SOURCE used. IF YOU DO NOT SPECIFY A SOURCE, WE shall both be penalised for plagarism.
 
 ## Before you begin
 
@@ -26,6 +27,8 @@ Make sure that as tasks are worked on sufficient detail is given to changes made
 Always only complete one step at a time -> STOP AND LET ME REVIEW before proceeding.
 
 When you create scripts, do not create them in the root directory. INSTEAD create them in a folder called 'ClaudeWorkingScripts'. By default any script you create should go into there, except if its purpose is to be run again by the user in which case it should be suitablly allocated into the codebase, ensuring the codebase is kept clean and easy to locate files.
+
+DO NOT under any circumstances make up statistics or numbers or anything without 100% verification of truth
 
 ## After completing tasks
 

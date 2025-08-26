@@ -1,5 +1,76 @@
-\contentsline {chapter}{\numberline {1}title of first chapter}{2}{}%
-\contentsline {chapter}{\numberline {2}title of second chapter}{3}{}%
-\contentsline {chapter}{\numberline {3}title of third chapter}{4}{}%
-\contentsline {chapter}{\numberline {4}etc.}{5}{}%
-\contentsline {chapter}{\numberline {A}Other appendices, e.g. code listing}{7}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation and Problem Statement}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Research Questions and Objectives}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Contributions}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Thesis Overview}{4}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Background and Related Work}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cryptocurrency Market Microstructure}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Digital Asset Markets Evolution}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Perpetual Futures Markets}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Centralized Limit Order Book (CLOB) Mechanics}{7}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Limit Order Placement Strategies}{7}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Evolution of Large Language Models}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Foundation Models Development}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}DeepSeek and GRPO Innovation}{8}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Reinforcement Learning Advantages and DAPO}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}RL for Sequential Decision Making}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}DAPO: Decoupled Clipping and Dynamic Sampling}{8}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Applications in Finance and Cryptocurrency}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}LLMs in Traditional Finance}{9}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Reinforcement Learning in Crypto Trading}{9}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Research Gap}{9}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Summary}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}System Architecture}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Overall Framework Design}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}LLM Architecture Selection}{11}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Data Collection and Preprocessing}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Orderbook Data Pipeline}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feature Engineering}{12}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}DAPO Training Methodology}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Reward Function Design}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}DAPO Implementation}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Training Procedure}{13}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Evaluation Metrics}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Execution Quality Metrics}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Risk-Adjusted Performance}{14}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Experimental Setup}{14}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Backtesting Framework}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Baseline Comparisons}{14}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Statistical Significance Testing}{14}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Summary}{14}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Implementation}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}System Architecture}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Technology Stack}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Modular Design}{15}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Data Pipeline Implementation}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data Collection Infrastructure}{16}{subsection.4.2.1}%
+\contentsline {subsubsection}{Orderbook Snapshot Processing}{16}{section*.2}%
+\contentsline {subsection}{\numberline {4.2.2}Feature Engineering Pipeline}{16}{subsection.4.2.2}%
+\contentsline {subsubsection}{Core Feature Extraction}{16}{section*.3}%
+\contentsline {subsection}{\numberline {4.2.3}Preference Pair Generation}{17}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}DAPO Training Implementation}{18}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Algorithm Implementation}{18}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}LoRA Configuration}{18}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Training Configuration}{19}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Multi-Asset Specialization}{19}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Asset-Specific Models}{19}{subsection.4.4.1}%
+\contentsline {subsubsection}{Training Pipeline Orchestration}{19}{section*.4}%
+\contentsline {subsection}{\numberline {4.4.2}Dataset Generation}{20}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Inference Optimization}{20}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Model Quantization}{20}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Inference Pipeline}{21}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Performance Monitoring}{22}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Training Metrics Dashboard}{22}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Convergence Analysis}{22}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Deployment Infrastructure}{22}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Cloud Training Setup}{22}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Production Deployment}{23}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Engineering Challenges and Solutions}{23}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Data Normalization Issues}{23}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Memory Constraints}{23}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Training Data Quality}{24}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Inference Latency}{24}{subsection.4.8.4}%
+\contentsline {section}{\numberline {4.9}Summary}{24}{section.4.9}%
+\contentsline {chapter}{\numberline {5}etc.}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Other appendices, e.g. code listing}{29}{appendix.A}%
