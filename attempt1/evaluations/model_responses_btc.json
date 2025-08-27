@@ -1,0 +1,32 @@
+{
+  "asset": "BTC",
+  "timestamp": "2025-08-23 22:52:07.932934",
+  "responses": [
+    {
+      "test": "Simple Buy Order",
+      "full_prompt": "You are a cryptocurrency trader specializing in BTC limit order execution.\n\nCurrent BTC market conditions:\n- Current price: $117000\n- Bid-ask spread: 0.05%\n- Order book imbalance: +0.20 (more buy pressure)\n- Recent volatility: 1.5%\n\nYour objective: You are a patient trader seeking best prices with good fill probability.\n\nBased on these conditions, what specific limit order price would you recommend for a BUY order? Provide exact price and brief reasoning.",
+      "expected": "Should suggest price slightly below current (e.g., $116850)",
+      "actual_response": "As a patient trader seeking best prices with good fill probability, I would recommend placing a limit buy order at $116883. This price is calculated by subtracting 0.11% (0.05% bid-ask spread + 0.06% buffer for good fill probability) from the current price of $117000. The order book imbalance of +0.20 indicates more buy pressure, which increases the likelihood of the order being filled. However, it's important to note that the recent volatility of 1.5% suggests a higher level of price movement, so it's essential to monitor the market closely and adjust the order price accordingly if necessary.",
+      "generation_time": 13.659212,
+      "analysis": {
+        "coherent": "Yes",
+        "price_in_range": "Yes ($116,883.00)",
+        "trading_terms": "7/8 terms",
+        "has_reasoning": "No"
+      }
+    },
+    {
+      "test": "Sell in Downtrend",
+      "full_prompt": "You are a BTC trading expert.\n\nMarket shows:\n- BTC price: $115000\n- Trend: Down 2% in last hour\n- Sell walls building above\n- Your goal: Exit position with minimal slippage\n\nRecommend a SELL limit order price.",
+      "expected": "Should suggest price slightly above current to ensure fill",
+      "actual_response": "As a BTC trading expert, I would recommend setting a sell limit order at $113600. This price takes into account the current trend of a 2% decrease in the last hour and the sell walls building above, indicating potential selling pressure. By setting the limit order slightly below the current price, you aim to exit your position with minimal slippage while still capturing some profit.",
+      "generation_time": 6.835881,
+      "analysis": {
+        "coherent": "Yes",
+        "price_in_range": "Yes ($113,600.00)",
+        "trading_terms": "4/8 terms",
+        "has_reasoning": "No"
+      }
+    }
+  ]
+}

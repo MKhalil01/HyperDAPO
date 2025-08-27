@@ -1,8 +1,0 @@
-
-BTC Model Performance:
-  Simple Buy Order: Yes response, Yes ($116,883.00)
-  Sell in Downtrend: Yes response, Yes ($113,600.00)
-
-ETH Model Performance:
-  Simple Buy Order: Yes response, Yes ($3,798.00)
-  Sell in Downtrend: Yes response, Yes ($3,670.00)

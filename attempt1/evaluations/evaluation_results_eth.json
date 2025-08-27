@@ -1,0 +1,42 @@
+{
+  "asset": "ETH",
+  "timestamp": "2025-08-23 22:44:42.220378",
+  "tests": [
+    {
+      "test_name": "Bull Market Buy",
+      "prompt": "You are a ETH trader. Market shows:\n- Price: $3800\n- Strong upward momentum (+2% last hour)\n- Order ...",
+      "analysis": {
+        "price_correct": "Yes - ETH range",
+        "market_condition": "Bullish",
+        "objective": "Balanced"
+      }
+    },
+    {
+      "test_name": "Bear Market Sell",
+      "prompt": "You are a ETH trader. Market shows:\n- Price: $3700\n- Downward trend (-1.5% last hour)\n- Order book: ...",
+      "analysis": {
+        "price_correct": "Check needed",
+        "market_condition": "Bearish",
+        "objective": "Balanced"
+      }
+    },
+    {
+      "test_name": "High Volatility",
+      "prompt": "You are a ETH trader. Market conditions:\n- Price: $3750\n- Extreme volatility: 5% swings in 30 minute...",
+      "analysis": {
+        "price_correct": "Check needed",
+        "market_condition": "High volatility",
+        "objective": "Risk-averse"
+      }
+    },
+    {
+      "test_name": "Arbitrage Opportunity",
+      "prompt": "You are a ETH trader. You notice:\n- Spot price: $3800\n- Futures premium: 0.15%\n- Order book imbalanc...",
+      "analysis": {
+        "price_correct": "Yes - ETH range",
+        "market_condition": "Neutral",
+        "objective": "Balanced"
+      }
+    }
+  ]
+}
